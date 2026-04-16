@@ -416,7 +416,7 @@ export default {
         }
 
         const successMessage = await getVerificationSuccessMessage();
-        await sendMessageToUser(chatId, `👋 *欢迎使用凉心的传话筒*\n\n` +
+        await sendMessageToUser(chatId, `👋 *欢迎使用KFC大王的传话筒*\n\n` +
               `📝 请使用礼貌用语进行对话\n` +
               `⏱ 管理员看到消息会及时回复\n\n` +
               `*温馨提示：请保持耐心，避免重复发送相同消息*`);
